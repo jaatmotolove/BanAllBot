@@ -133,8 +133,8 @@ Wᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ᴀᴄᴛɪᴏɴ ʙᴏᴛ's ᴍ�
 """,
     buttons=(
                       [
-                         Button.url('📣 ᴜᴘᴅᴀᴛᴇs', 'https://t.me/KaalWare'), 
-                         Button.url('sᴜᴘᴘᴏʀᴛ ⭐', 'https://t.me/Sanki_World'), 
+                         Button.url('📣 ᴜᴘᴅᴀᴛᴇs', 'https://t.me/z_b_jaat_tg_help'), 
+                         Button.url('sᴜᴘᴘᴏʀᴛ ⭐', 'https://t.me/z_b_jaat_tg_help'), 
                       ], 
                       [
                         Button.url('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', 'https://t.me/KaalActionBot?startgroup=true'),   
@@ -150,8 +150,8 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                       [
-                         Button.url('📣 ᴜᴘᴅᴀᴛᴇs', 'https://t.me/KaalWare'), 
-                         Button.url('sᴜᴘᴘᴏʀᴛ ⭐', 'https://t.me/Sanki_World'), 
+                         Button.url('📣 ᴜᴘᴅᴀᴛᴇs', 'https://t.me/z_b_jaat_tg_help'), 
+                         Button.url('sᴜᴘᴘᴏʀᴛ ⭐', 'https://t.me/z_b_jaat_tg_help'), 
                       ], 
                       [
                         Button.url('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', 'https://t.me/KaalActionBot?startgroup=true'),   
