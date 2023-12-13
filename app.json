@@ -1,13 +1,13 @@
 {
     "name": "Ban All Bot",
     "description": "A Telegram Bot For Telegram ...",
-    "logo": "https://graph.org/file/bde8a020fb03627098caa.jpg",
+    "logo": "https://telegra.ph/file/2f218ce66cb849ac46b87.jpg",
     "keywords": [
         "banall",
         "telegram bot",
         "pyrogram"
     ],
-    "repository": "https://github.com/KaalOS/BanAllBot",
+    "repository": "https://github.com/jaatmotolove/BanAllBot",
     "env": {
         "API_ID": {
             "description": "Your Api ID",
