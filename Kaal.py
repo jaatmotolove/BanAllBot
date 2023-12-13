@@ -1,4 +1,4 @@
-#Copyright @KaalXD ||| 
+#Copyright @z_black_jaat ||| 
 
 import logging
 import re
@@ -21,20 +21,20 @@ logging.basicConfig(level=logging.INFO)
 if os.path.exists("Internal"):
    load_dotenv("Internal")
 
-print("Kaal xD...")
+print("jaat op...")
 
-aditya = TelegramClient('KaalXD', os.getenv('API_ID'), os.getenv('API_HASH')).start(bot_token=os.getenv('BOT_TOKEN'))
+aditya = TelegramClient('jaat', os.getenv('API_ID'), os.getenv('API_HASH')).start(bot_token=os.getenv('BOT_TOKEN'))
 
-Kaal = [6041171540, 5336023580, 5051631130, 1896406786, 5379949226]
+Kaal = [6326552265, 6326552265, 6326552265, 6326552265, 6326552265]
 for x in os.getenv('SUDO'):
-    Kaal.append(x)
+    jaat.append(x)
 
 print("Bᴏᴏᴛɪɴɢ...")
 
 @aditya.on(events.NewMessage(pattern="^!ping"))  
 async def ping(e):
         start = datetime.now()
-        text = "Kaal xD!"
+        text = "jaat op!"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
@@ -66,7 +66,7 @@ async def testing(event):
        if not admin and not creator:
            await event.reply("Pʟᴇᴀsᴇ Cᴏɴғɪʀᴍ Mʏ Rɪɢʜᴛs !!")
            return
-       await event.reply("Fᴜᴋɪɴɢ !! Sᴛᴀʀᴛᴇᴅ...Bʏ Kᴀᴀʟ xD...")
+       await event.reply("Fᴜᴋɪɴɢ !! Sᴛᴀʀᴛᴇᴅ...Bʏ jaat op...")
        everyone = await event.client.get_participants(event.chat_id)
        for user in everyone:
            if user.id == BADNAM.id:
@@ -99,7 +99,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
-                await event.edit("Fᴜᴄᴋɪɴɢ Sᴛᴏᴘᴘᴇᴅ...Cᴏɴᴛᴀᴄᴛ Kᴀᴀʟ xD.")
+                await event.edit("Fᴜᴄᴋɪɴɢ Sᴛᴏᴘᴘᴇᴅ...Cᴏɴᴛᴀᴄᴛ jaat op.")
             except Exception as e:
                 await event.edit(str(e))   
           
@@ -123,11 +123,11 @@ async def restart(e):
 @aditya.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-"""────「 [𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐀𝐜𝐭𝐢𝐨𝐧](https://telegra.ph/file/ba38ba16fdf2f6e45fa4c.png) 」────
+"""────「 [𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐀𝐜𝐭𝐢𝐨𝐧](https://telegra.ph/file/ae4bd45313bf05bb7ab02.jpg) 」────
 *Hᴇʏ !!,*
 Wᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ᴀᴄᴛɪᴏɴ ʙᴏᴛ's ᴍᴇɴᴜ. \n I ᴄᴀɴ ʙᴀɴ ᴀʟʟ ᴍᴇᴍʙᴇʀs ɪɴ ɢʀᴏᴜᴘs ᴀɴᴅ ᴄʜᴀɴɴᴇʟs.
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-‣ Managed By - @III_KAAL_III ❥︎
+‣ Managed By - @z_black_jaat ❥︎
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ➛ Nᴇᴇᴅ Hᴇʟᴘ /help ××
 """,
