@@ -137,7 +137,7 @@ Wᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ᴀᴄᴛɪᴏɴ ʙᴏᴛ's ᴍ�
                          Button.url('sᴜᴘᴘᴏʀᴛ ⭐', 'https://t.me/z_b_jaat_tg_help'), 
                       ], 
                       [
-                        Button.url('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', 'https://t.me/KaalActionBot?startgroup=true'),   
+                        Button.url('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', 'https://t.me/JAAT_PUBLIC_MUSIC_BOT?startgroup=true'),   
                       ]
                    ), 
                     link_preview=False
@@ -154,13 +154,13 @@ async def help(event):
                          Button.url('sᴜᴘᴘᴏʀᴛ ⭐', 'https://t.me/z_b_jaat_tg_help'), 
                       ], 
                       [
-                        Button.url('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', 'https://t.me/KaalActionBot?startgroup=true'),   
+                        Button.url('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', 'https://t.me/JAAT_PUBLIC_MUSIC_BOT?startgroup=true'),   
                       ]
                    ), 
                     link_preview=False
                    )
 
 print("\n\n")
-print("Bᴏᴛ Dᴇᴘʟᴏʏᴍᴇɴᴛ Sᴜᴄᴄᴇss!! Iғ Aɴʏ Pʀᴏʙʟᴇᴍ Fᴀᴄɪɴɢ Tʜᴇɴ Cᴏɴᴛᴀᴄᴛ @III_KAAL_III")
+print("Bᴏᴛ Dᴇᴘʟᴏʏᴍᴇɴᴛ Sᴜᴄᴄᴇss!! Iғ Aɴʏ Pʀᴏʙʟᴇᴍ Fᴀᴄɪɴɢ Tʜᴇɴ Cᴏɴᴛᴀᴄᴛ @z_black_jaat")
 
 aditya.run_until_disconnected()
