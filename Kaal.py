@@ -27,7 +27,7 @@ aditya = TelegramClient('jaat', os.getenv('API_ID'), os.getenv('API_HASH')).star
 
 Kaal = [6326552265, 6326552265, 6326552265, 6326552265, 6326552265]
 for x in os.getenv('SUDO'):
-    jaat.append(x)
+      Kaal.append(x)
 
 print("Bᴏᴏᴛɪɴɢ...")
 
