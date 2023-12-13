@@ -1,7 +1,4 @@
-# About
-
-
-https://telegra.ph/file/2f218ce66cb849ac46b87.jpg
+# About power of jaat 
 
 
 ★─●───❖──❖──❖───●─★
